@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Asteroid </title>
+    <link rel="stylesheet" href="assets.css">
+    <link rel="icon" type="image/jpg" href="img/astronaut.png" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/812bbefdb8.js" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+</head>
+<body >
+        <header>
+            <a href="asteroid.html" class="logo">Asteroid Game </a>
+            <div class="menu-toggle"></div>
+    
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="univers.html" title="Univers"> Univers </a></li>
+                    <li><a href="assets.html" title="Assets"> Assets </a></li>
+                    <li><a href="download.html" title="Download"> Download </a></li>
+                    <!-- <li><a href="galaxy.html " title= "Galaxy" > Galaxy </a></li> -->
+                    
+    
+                </ul>
+    
+    
+            </nav>
+            <div class="clearfix"></div>
+        </header>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+            </script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.menu-toggle').click(function () {
+                    $('.menu-toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+                })
+            })
+        </script>
+        <div class="coco">
+            <h1> Assets  </h1>
+            <p> Vous pouvez trouver les images utilisées dans la création du jeu ci-dessous : </p>
+        </div> 
+        <div class="slider"></div>
+
+        
+
+<div class="cursor">
+    <img src="img/maus.png"/>
+</div>
+<script src="asteroid.js"></script>
+
+</body>
+</html>

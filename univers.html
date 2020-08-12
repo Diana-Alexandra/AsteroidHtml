@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Univers </title>
+    <link href="https://fonts.googleapis.com/css?family=Kavivanar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="univers.css">
+    <link href="https://fonts.googleapis.com/css?family=Quando&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="img/astronaut.png" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body >
+        <header>
+            <a href="asteroid.html" class="logo">Asteroid Game </a>
+            <div class="menu-toggle"></div>
+    
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="univers.html" title="Univers"> Univers </a></li>
+                    <li><a href="assets.html" title="Assets"> Assets </a></li>
+                    <li><a href="download.html" title="Download"> Download </a></li>
+                    <!-- <li><a href="galaxy.html " title= "Galaxy" > Galaxy </a></li> -->
+                    
+    
+                </ul>
+    
+    
+            </nav>
+            <div class="clearfix"></div>
+        </header>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+            </script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.menu-toggle').click(function () {
+                    $('.menu-toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+                })
+            })
+        </script>
+<h1 class="neon" data-text=" Univers "> Univers</h1>
+<div class="coco">
+<h2 class="neoni" data-text=" Univers "> Ce que c'est Asteroid Game ? </h2>
+<div class="toto">
+    <p>Asteroid Game est un shoot 'em up multidirectionnel au concept simple. 
+        Le joueur contrôle un vaisseau spatial, représenté en vue de dessus et confronté à des champs d'astéroïdes et des soucoupes volantes. Le but est de survivre le plus longtemps possible en détruisant les astéroïdes et les soucoupes pour engranger les points. 
+        L'aire de jeu est intégralement représentée à l'écran; Grâce à un effet de wraparound, lorsqu'un élément sort du cadre de l'écran, 
+        il réapparaît du côté opposé (idem pour le vaisseau du joueur). </p>
+</div>
+<h2 class="neonit" data-text=" Univers "> Les touches </h2> 
+
+<div class="sisi">
+    <p>Si on appuie sur la touche up il prend de la vitesse et lorsqu'on relâche la touche up il perd de la vitesse
+        Avec les touches gauche et droite le vaisseau peut tourner sur lui-même Avec la barre espace il tire des missiles
+        Lorsqu'un astéroïde est touché par un tir, il se divise en deux blocs de taille moyenne, lesquels peuvent à leur tour être divisés en deux plus petits blocs, 
+        lesquels peuvent enfin être détruits. 
+        Le nombre de points rapportés par la destruction d'un élément est dépendante de sa taille.
+        Si le vaisseau spatial est touché par un astéroide il perd une vie
+        Le vaisseau spatial a trois vies
+        Quand le vaisseau n'a plus de vies le jeu s'arrête et l'écran de départ s'affiche
+        Un bouton start permet de lancer le jeu (écran de départ)  . </p>
+</div>
+</div>
+<div class="coconut">
+    <img class="ruru" src="img/fleches-clavier.png">
+    
+    <img class="riri" src="img/barre-espace.jpg">
+</div>
+<div class="cursor">
+    <img src="img/maus.png"/>
+</div>
+<script src="univers.js"></script>
+</body>
+</html>
